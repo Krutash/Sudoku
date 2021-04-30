@@ -29,4 +29,4 @@ d.	On successful assignment we backtrack again. Backtracking stops when either t
 Result is displayed on the screen. On success the code outputs the initial GRID and the FINAL GRID of solution. It also displays various performance statistics as well. 
 There are two ways of providing input to the code. Either changing the default grid in the code which is defined as GRID at line 16 or by providing a text file containing the sudoku grid at run time. 
 the foramt of file should be as follow:
-![](.media/sudoku format.png)
+![](.media/sudoku-format.png)
