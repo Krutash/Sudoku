@@ -1,4 +1,5 @@
-## SUDOKU AS CSP
+# SUDOKU AS CSP
+Algo used: Backtracking, optimized with Forward Checking, MRV, Max-Degree and LCV heuristics
 
 # MODEL
 To define Sudoku as CSP, we define layout first. It is a 9x9 grid sudoku. Rows are labelled as A, B, C....... I (9 rows) and columns are labelled as numbers 1, 2, 3......9. Hence variables are defined as X = {A1, A2…...Xi..... I8, I9}. A1 represents cell in Ath row and 1st column. Each variable can take up value from 1 to 9 hence Domain for each variable is D = {1, 2, 3, 4, 5, 6, 7, 8, 9}.
